@@ -19,7 +19,7 @@ import com.student.demo.repository.TutorRepo;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://leaveform1.netlify.app")
 public class StudentController {
 
     @Autowired

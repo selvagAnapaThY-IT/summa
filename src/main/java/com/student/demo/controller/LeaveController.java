@@ -14,7 +14,7 @@ import com.student.demo.service.LeaveRequestService;
 
 @RestController
 @RequestMapping("/leaveform")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://leaveform1.netlify.app")
 public class LeaveController{
 
     @Autowired

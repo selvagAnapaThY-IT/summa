@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.student.demo.model.Tutor1;
 import com.student.demo.service.TutorService;
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://leaveform1.netlify.app")
 @RestController
 @RequestMapping("/tutors")
 public class TutorController {
